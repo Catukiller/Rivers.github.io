@@ -1,0 +1,79 @@
+
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 30px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#199292;
+}
+
+nav a {
+    color: #f3eded;
+    padding: 35px;
+    margin-left: 150px;
+    
+}
+
+.logo{
+    padding-top: 10px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    width: 115px;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+}
+
+.h1{
+    grid-row: 1/1;
+    grid-column: 2/2;
+}
+
+.p1{
+    grid-row: 2/2;
+}
+.idaho{
+    grid-row: 1/1;
+    width: 70%;
+}
+
+
+.utah{
+    grid-row: 2/2;
+    width: 70%;
+}
+
+.arizona{
+    grid-row: 3/3;
+    width: 70%;
+}
+
+
+
+
+
+footer{
+    background-color: #199292;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img {
+    padding-top: 25px;
+    width: 60px;
+
+}
+
+  
