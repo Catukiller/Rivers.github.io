@@ -26,40 +26,31 @@ nav a {
     align-self: center;
     width: 115px;
 }
-
+s
 .home-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:repeat(3, 1fr);
 }
 
+.x{
+    display:flex;
+}
 .h1{
     grid-row: 1/1;
     grid-column: 2/2;
+    width: 100%;
 }
 
 .p1{
     grid-row: 2/2;
 }
-.idaho{
-    grid-row: 1/1;
-    width: 70%;
-}
-
 
 .utah{
-    grid-row: 2/2;
+
     width: 70%;
+    margin: 75px;
 }
-
-.arizona{
-    grid-row: 3/3;
-    width: 70%;
-}
-
-
-
-
 
 footer{
     background-color: #199292;
@@ -76,4 +67,5 @@ footer .social img {
 
 }
 
+  
   
